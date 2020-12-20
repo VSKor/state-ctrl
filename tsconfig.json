@@ -1,0 +1,38 @@
+{
+  "compilerOptions": {
+    /* Basic Options */
+    "target": "es6",
+    // ECMAScript target version
+    "module": "esnext",
+    // Allow javascript files to be compiled
+    "allowJs": false,
+    // generates corresponding '.d.ts' file
+    "declaration": true,
+    // include source maps for debugging
+    "sourceMap": true,
+    "esModuleInterop": true,
+    /* Strict Type-Checking Options */
+    "strict": true,
+    /* Enable all strict type-checking options. */
+    "noImplicitAny": true,
+    /* Module Resolution Options */
+    "moduleResolution": "node",
+    /* Specify module resolution strategy: 'node' (Node.js) or 'classic' (TypeScript pre-1.6). */
+    "baseUrl": "./",
+    "resolveJsonModule": true,
+    "lib": [
+      "es6",
+      "es2017",
+      "es2018",
+      "es2019",
+      "es2020",
+      "dom"
+    ]
+  },
+  "include": [
+    "lib/**/*"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
