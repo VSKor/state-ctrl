@@ -1,3 +1,3 @@
-import { StateCTRL } from "./state-ctrl";
+import { StateCTRL } from './state-ctrl';
 
 export { StateCTRL };
